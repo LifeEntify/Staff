@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package staff.v1;
+
+option go_package="github.com/lifeentify/staff;staff";
+
+message Staff {
+  string _id = 1;
+  string staff_id = 2;
+  string person_id = 3;
+  string hospital_id = 4;
+}
